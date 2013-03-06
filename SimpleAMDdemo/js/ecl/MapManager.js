@@ -5,7 +5,8 @@ define([
         "dojo/on",
         "esri/map",
         "esri/dijit/Scalebar",
-        "esri/dijit/OverviewMap"
+        "esri/dijit/OverviewMap",
+        "dojo/on"
        ],
 
     function (lang, on, Map, Scalebar, OverviewMap) {

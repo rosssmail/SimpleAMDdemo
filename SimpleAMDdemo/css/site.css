@@ -4,3 +4,24 @@
     margin:0;
     padding:0;
 }
+
+
+/*Menu*/
+#menu
+{
+    padding: 10px;
+    background-position: right top;
+    border: solid 1px #7EABCD;
+    z-index: 99;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height:auto;
+	width:auto ;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    overflow: hidden;
+	box-shadow: 5px 5px 5px #888;
+}
+/*Menu*/
