@@ -1,6 +1,6 @@
-﻿define(["ecl/MapManager2"],
+﻿define(["ecl/MapManager2", "ecl/Util"],
     
-    function (MapManager) {
+    function (MapManager, Util) {
 
         var initialize;
         initialize = function() {
