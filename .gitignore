@@ -40,6 +40,11 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
+Web.Debug.config
+Web.Release.config
+mswwsettings
+esri-jsapi-vsdoc.js
+MSSCCPRJ.SCC
 
 # Build results
 [Dd]ebug/
