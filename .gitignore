@@ -42,6 +42,7 @@ local.properties
 *.sln.docstates
 Web.Debug.config
 Web.Release.config
+Web.config
 *.mswwsettings
 esri-jsapi-vsdoc.js
 MSSCCPRJ.SCC
