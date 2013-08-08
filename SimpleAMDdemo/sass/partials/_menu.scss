@@ -1,0 +1,25 @@
+$background-colour : #FFFFFF;
+
+#menu
+{
+	@include box-shadow(#858 5px 5px 5px);
+	@include opacity(0.8);
+	@include box-sizing(border-box);
+	padding: 10px;
+    border: solid 1px #7EABCD;
+    z-index: 99;
+	width: 100%;
+    height: auto;
+	text-align: center;
+
+    background-color: $background-colour;
+
+	@media screen and (min-width: $break-small) {
+		@include border-radius(10px);
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		width: auto;
+		text-align: left;
+	}
+}

@@ -1,0 +1,22 @@
+@import "compass";
+@import "compass/Reset";
+@import "compass/css3";
+@import "compass/css3/border-radius"; 
+@import "compass/css3/box-shadow";
+@import "compass/css3/opacity";
+@import "compass/css3/box-sizing";
+
+$break-small: 40em;
+$break-medium: 50em;
+$break-large: 60em;
+
+@import "partials/menu";
+
+
+html, body, #mapDiv {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
